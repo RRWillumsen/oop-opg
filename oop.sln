@@ -3,48 +3,46 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "oop", "http://localhost:58629", "{B009841A-8924-4986-B7BD-369CCE8A43AD}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "KurvClass(1)", "http://localhost:4750", "{0B7BC467-311A-4313-A1D5-2157F081FBA7}"
 	ProjectSection(WebsiteProperties) = preProject
 		UseIISExpress = "true"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_58629"
-		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\Login\oop\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58629\"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_4750"
+		Debug.AspNetCompiler.PhysicalPath = "KurvClass\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4750\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_58629"
-		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\Login\oop\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58629\"
+		Release.AspNetCompiler.VirtualPath = "/localhost_4750"
+		Release.AspNetCompiler.PhysicalPath = "KurvClass\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4750\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		SlnRelativePath = "..\..\WebSites\Login\oop\"
-		DefaultWebSiteLanguage = "Visual C#"
+		SlnRelativePath = "KurvClass\"
 	EndProjectSection
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "KurvClass", "http://localhost:4078", "{54B357AB-73A3-4E05-B563-910CF075093B}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "oop(1)", "http://localhost:4753", "{0C79B775-78CE-4589-B3D0-29AB9C0A6492}"
 	ProjectSection(WebsiteProperties) = preProject
 		UseIISExpress = "true"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_4078"
-		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\Login\KurvClass\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4078\"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_4753"
+		Debug.AspNetCompiler.PhysicalPath = "oop\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4753\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_4078"
-		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\Login\KurvClass\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4078\"
+		Release.AspNetCompiler.VirtualPath = "/localhost_4753"
+		Release.AspNetCompiler.PhysicalPath = "oop\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4753\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		SlnRelativePath = "..\..\WebSites\Login\KurvClass\"
-		DefaultWebSiteLanguage = "Visual C#"
+		SlnRelativePath = "oop\"
 	EndProjectSection
 EndProject
 Global
@@ -52,10 +50,10 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B009841A-8924-4986-B7BD-369CCE8A43AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B009841A-8924-4986-B7BD-369CCE8A43AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{54B357AB-73A3-4E05-B563-910CF075093B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{54B357AB-73A3-4E05-B563-910CF075093B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B7BC467-311A-4313-A1D5-2157F081FBA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B7BC467-311A-4313-A1D5-2157F081FBA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C79B775-78CE-4589-B3D0-29AB9C0A6492}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C79B775-78CE-4589-B3D0-29AB9C0A6492}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
