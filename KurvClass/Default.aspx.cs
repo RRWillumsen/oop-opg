@@ -14,9 +14,7 @@ public partial class _Default : System.Web.UI.Page
     }
     protected void Button_submit_Click(object sender, EventArgs e)
     {
-        List<CartProduct> cart = new List<CartProduct>();
-
-        cart = GrabCart(cart);
+ 
 
         AddToCart(cart);
 
@@ -29,40 +27,6 @@ public partial class _Default : System.Web.UI.Page
         GV_cart.DataBind();
     }
 
-    private void AddToCart(List<CartProduct> cart)
-    {
-
-        bool newProduct = true;
-
-        foreach(CartProduct product in cart){
-            if (product.Id == Convert.ToInt32(TextBox_id.Text))
-            {
-                newProduct = false;
-                product.Amount += Convert.ToInt32(TextBox_antal.Text);
-                product.SamletPris = product.Amount * product.Price;
-            }
-        }
-
-       
-      
- if (newProduct)
-
-        cart.Add(new CartProduct(Convert.ToInt32(TextBox_id.Text),
-            TextBox_navn.Text,
-            Convert.ToDecimal(TextBox_pris.Text),
-            Convert.ToInt32(TextBox_antal.Text)
-            ));
-    }
-
-    private List<CartProduct> GrabCart(List<CartProduct> cart)
-    {
-        if (Session["Cart"] == null)
-        {
-            Session.Add("Cart", cart);
-        }
-
-        cart = Session["Cart"] as List<CartProduct>;
-        return cart;
-    }
-
+   
 }
+   
