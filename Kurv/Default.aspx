@@ -1,4 +1,7 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="KurvClass.Default" %>
+
+
+<%@ Register Src="~/CartView.ascx" TagPrefix="uc1" TagName="CartView" %>
 
 <!DOCTYPE html>
 
@@ -17,6 +20,7 @@
             <tr>
                 <td>Id</td>
                 <td><asp:TextBox ID="TextBox_id" runat="server"></asp:TextBox></td>
+                  
             </tr>
 
             <tr>
@@ -39,9 +43,10 @@
             </tr>
         </table>
 
-        <asp:GridView ID="GV_cart" runat="server"></asp:GridView>
+        <uc1:CartView runat="server" id="CartViewControl" />
 
     </div>
     </form>
 </body>
 </html>
+

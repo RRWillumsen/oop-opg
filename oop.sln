@@ -3,57 +3,33 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "KurvClass(1)", "http://localhost:4750", "{0B7BC467-311A-4313-A1D5-2157F081FBA7}"
-	ProjectSection(WebsiteProperties) = preProject
-		UseIISExpress = "true"
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_4750"
-		Debug.AspNetCompiler.PhysicalPath = "KurvClass\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4750\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_4750"
-		Release.AspNetCompiler.PhysicalPath = "KurvClass\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4750\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		SlnRelativePath = "KurvClass\"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KurvClass", "Kurv\KurvClass.csproj", "{8A844355-EFA9-4CBA-BE8B-BB9A6442B8BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordre", "Ordre\Ordre.csproj", "{CCC64F90-945F-4E67-936D-02163161339F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8A844355-EFA9-4CBA-BE8B-BB9A6442B8BB} = {8A844355-EFA9-4CBA-BE8B-BB9A6442B8BB}
 	EndProjectSection
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "oop(1)", "http://localhost:4753", "{0C79B775-78CE-4589-B3D0-29AB9C0A6492}"
-	ProjectSection(WebsiteProperties) = preProject
-		UseIISExpress = "true"
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_4753"
-		Debug.AspNetCompiler.PhysicalPath = "oop\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4753\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_4753"
-		Release.AspNetCompiler.PhysicalPath = "oop\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4753\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		SlnRelativePath = "oop\"
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserClass", "UserClass\UserClass.csproj", "{12D00209-CDD0-4368-B07C-44B08A2FB415}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0B7BC467-311A-4313-A1D5-2157F081FBA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0B7BC467-311A-4313-A1D5-2157F081FBA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0C79B775-78CE-4589-B3D0-29AB9C0A6492}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0C79B775-78CE-4589-B3D0-29AB9C0A6492}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A844355-EFA9-4CBA-BE8B-BB9A6442B8BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A844355-EFA9-4CBA-BE8B-BB9A6442B8BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A844355-EFA9-4CBA-BE8B-BB9A6442B8BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A844355-EFA9-4CBA-BE8B-BB9A6442B8BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCC64F90-945F-4E67-936D-02163161339F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCC64F90-945F-4E67-936D-02163161339F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCC64F90-945F-4E67-936D-02163161339F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCC64F90-945F-4E67-936D-02163161339F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12D00209-CDD0-4368-B07C-44B08A2FB415}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12D00209-CDD0-4368-B07C-44B08A2FB415}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12D00209-CDD0-4368-B07C-44B08A2FB415}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12D00209-CDD0-4368-B07C-44B08A2FB415}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

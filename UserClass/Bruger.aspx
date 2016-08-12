@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="TestBruger.aspx.cs" Inherits="TestBruger" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Bruger.aspx.cs" Inherits="UserClass.Bruger" %>
 
 <!DOCTYPE html>
 
@@ -9,8 +9,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
-    
-        <asp:Label ID="lbl_user" runat="server" Text=""></asp:Label>
+        <asp:Label ID="lbl_user" runat="server" Text="Label"></asp:Label>
         <br />
         <asp:Button ID="btn_opret" runat="server" Text="Opret" OnClick="btn_opret_Click" />
         <asp:Button ID="btn_slet" runat="server" Text="Slet" OnClick="btn_slet_Click" />

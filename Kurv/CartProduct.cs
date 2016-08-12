@@ -13,6 +13,8 @@ namespace KurvClass
         private string name;
         private decimal price;
         private int amount;
+        private string image;
+        
         
         #endregion
 
@@ -22,17 +24,30 @@ namespace KurvClass
         public decimal Price { get { return this.price; } set { this.price = value; } }
         public int Amount { get { return this.amount; } set { this.amount = value; } }
         public decimal SamletPris { get { return this.price * this.amount; }  }
+        public string Image { get { return this.image; } }
+        public decimal Vat { get { return this.price * (decimal) 0.20; } }
         #endregion
 
         #region constructors
-      
-        public CartProduct(int id, string name, decimal price, int amount)
+
+        public CartProduct() { }
+        public CartProduct(int id, string name, decimal price, int amount, string image)
         {
             this.id = id;
             this.name = name;
             this.price = price;
             this.amount = amount;
+            this.image = image;
          
+        }
+
+        public CartProduct(int id, string name, decimal price, int amount)
+        {
+            // TODO: Complete member initialization
+            this.id = id;
+            this.name = name;
+            this.price = price;
+            this.amount = amount;
         }
         #endregion
 
